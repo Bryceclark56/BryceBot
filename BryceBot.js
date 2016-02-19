@@ -13,9 +13,3 @@ uwot.once("login", (data) => {
 uwot.once("connected", () => {
     console.log("Hai");
 });
-
-/*uwot.on("data", (data, flags, nData) => {
-    if (nData.d["guild_id"] == "99691464396652544") {
-        uwot.apiCall("guilds/${nData.d['guild_id']}/channels", null, uwot.token).then((data) => {uwot.apiCall()}).catch((e)=>{});
-    }
-});*/
