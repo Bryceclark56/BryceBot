@@ -7,6 +7,7 @@ uwot.once("login", (data) => {
 
 uwot.once("connected", () => {
     console.log("Hai");
+    uwot.updateGame("Hexagon Simulator");
 });
 
 uwot.on('data', (d) => {

@@ -1,6 +1,6 @@
 {
   "name": "BryceBot",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "author": "Bryceclark56 <bryce@bc56.me>",
   "main": "BryceBot.js",
   "repository": {
@@ -11,8 +11,7 @@
     "url": "https://github.com/Bryceclark56/BryceBot/issues"
   },
   "dependencies": {
-    "ws": "0.7.2",
-    "mongodb": "2.0.45"
+    "ws": "0.7.2"
   },
   "license": "MIT"
 }
